@@ -1,0 +1,83 @@
+{
+  "companyName" : "Bob's bait and tackle shop",
+  "streetAddress" : "456 flounders lane",
+  "streetAddress2" : "unit#24",
+  "city" : "Waterloo",
+  "province" : "Ontario",
+  "established" : 1965,
+  "active" : true,
+  "slogan" : "we're masters of bait",
+  "featuredProducts" : [345678, 789667, 123345],
+  "products" : [
+    {
+      "sku" : 345678,
+      "name" : "worms",
+      "weight" : 1,
+      "dimensions" : {
+        "height" : 10,
+        "width" : 10,
+        "length" : 20
+      },
+      "price" : 2.35
+    },
+    {
+      "sku" : 789667,
+      "name" : "minows",
+      "weight" : 1,
+      "dimensions" : {
+        "height" : 10,
+        "width" : 10,
+        "length" : 20
+      },
+      "price" : 3.75
+    },
+    {
+      "sku" : 123345,
+      "name" : "leeches",
+      "weight" : 1,
+      "dimensions" : {
+        "height" : 10,
+        "width" : 10,
+        "length" : 20
+      },
+      "price" : 4.65
+    },
+    {
+      "sku" : 345679,
+      "name" : "whale",
+      "weight" : 140000,
+      "dimensions" : {
+        "height" : 300,
+        "width" : 400,
+        "length" : 3300
+      },
+      "price" : 123000
+    },
+    {
+      "sku" : 345680,
+      "name" : "kraken",
+      "weight" : 675000,
+      "dimensions" : {
+        "height" : 600,
+        "width" : 800,
+        "length" : 8000
+      },
+      "price" : 234568.88
+    },
+    {
+      "sku" : 345681,
+      "name" : "colossal squid",
+      "weight" : 75000,
+      "dimensions" : {
+        "height" : 100,
+        "width" : 200,
+        "length" : 1400
+      },
+      "price" : 23006.74
+    }
+  ],
+  "onSale" : [
+    {"sku":345681, "discountPercent": 25},
+    {"sku":345680, "discountPercent": 75}
+  ]
+}

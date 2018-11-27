@@ -1,15 +1,19 @@
 // PART 1
 // Step 1 - Set our request URL
-
+const requestURL = "https://zen-meninsky-2ca89e.netlify.com/data.json";
 
 // Step 2 - Fetch our URL
+fetch(requestURL)
 
 // Step 3 - Using the .then() method, pass a callback function that receives the response object and returns the Promise with the .json() method
-
-
+.then(function(response) {
+  return response.json();
+})
 
 // Step 4 - Add another .then() method passing a callback that will receive our data object
-
+.then(function(data){
+  console.log(data);
+});
 
 // PART 2
 // Step 1 - Remove the callback from Step 4 and replace it with wesGotsDatum

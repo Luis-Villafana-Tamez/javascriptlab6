@@ -13,6 +13,7 @@ fetch(requestURL)
 // Step 4 - Add another .then() method passing a callback that will receive our data object
 .then(function(data){
   console.log(data);
+  debugger
 });
 
 // PART 2
